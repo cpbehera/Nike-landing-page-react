@@ -14,7 +14,7 @@ const Nav = ()=>{
     return (
         <nav className='container'>
             <div className="logo">
-                <img src="../Images/brand_logo.png" alt="" />
+                <img src="./brand_logo.png" alt="" />
             </div>
             <ul className={menu ? "menuOpen" : "menuClose" }>
                 <li><a href="#">Menu</a></li>
